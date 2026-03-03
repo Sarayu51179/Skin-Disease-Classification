@@ -1,0 +1,44 @@
+
+---
+
+# 🛑 .gitignore (Use for BOTH Projects)
+
+Create `.gitignore` file in each project root:
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.env/
+.envrc/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch Models
+*.pth
+*.pt
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Large Dataset Folders
+data/
+datasets/
+archive/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
