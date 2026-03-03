@@ -74,15 +74,7 @@ Skin-Disease-Classification/
 ├── .gitignore
 └── README.md
 
-
 ---
-
-## 🚀 How to Run
-
-```bash
-pip install -r requirements.txt
-python train.py
-
 ## Model Interpretability
 
 - Grad-CAM visualization for understanding prediction regions
@@ -94,4 +86,7 @@ python train.py
 
 ->Deploy as web-based diagnostic tool
 
-Author: Mallarapu Sarayu
+## 🚀 How to Run
+```bash
+pip install -r requirements.txt
+python train.py 
